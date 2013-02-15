@@ -1,0 +1,41 @@
+* Sat Feb 13 2010 Anas Nashif <anas.nashif@intel.com> - 1.1.1
+- build for other distros
+
+* Wed Dec 23 2009 Anas Nashif <anas.nashif@intel.com> - 1.1.1
+- Initial import into Moblin
+
+* Tue Sep 29 2009 Steve 'Ashcrow' Milner <me@stevemilner.org> - 1.1.1-1
+- Updated for release.
+
+* Sun Jul 26 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0-5
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_12_Mass_Rebuild
+
+* Thu Feb 26 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_11_Mass_Rebuild
+
+* Sun Dec 21 2008 Steve 'Ashcrow' Milner <me@stevemilner.org> - 1.0-3
+- Updated for release.
+
+* Sat Nov 29 2008 Ignacio Vazquez-Abrams <ivazqueznet+rpm@gmail.com> - 1.0-2
+- Rebuild for Python 2.6
+
+* Fri Nov 27 2008 Steve 'Ashcrow' Milner <me@stevemilner.org> - 1.0-1
+- Updated for upstream 1.0.
+
+* Sun Sep 14 2008 Steve 'Ashcrow' Milner <me@stevemilner.org> - 0.11.1-1
+- Updated for upstream 0.11.
+
+* Mon Jul 21 2008 Steve 'Ashcrow' Milner <me@stevemilner.org> - 0.10-1
+- Updated for upstream 0.10.
+
+* Thu Nov 29 2007 Steve 'Ashcrow' Milner <me@stevemilner.org> - 0.9-2
+- Added python-setuptools as a Requires per bz#403601.
+
+* Mon Nov 12 2007 Steve 'Ashcrow' Milner <me@stevemilner.org> - 0.9-1
+- Updated for upstream 0.9.
+
+* Thu Aug 17 2007 Steve 'Ashcrow' Milner <me@stevemilner.org> - 0.8.1-2
+- Removed the dos2unix build dependency.
+
+* Thu Jun 28 2007 Steve 'Ashcrow' Milner <me@stevemilner.org> - 0.8.1-1
+- Initial packaging for Fedora.
