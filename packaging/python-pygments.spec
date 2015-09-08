@@ -8,8 +8,8 @@ Summary:        A syntax highlighting engine written in Python
 Group:          Development/Libraries
 License:        BSD
 URL:            http://pygments.org/
-Source0:        %{name}-%{version}.tar.gz
-Source1001: packaging/python-pygments.manifest 
+Source0:        http://cheeseshop.python.org/packages/source/P/Pygments/Pygments-%{version}.tar.gz
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildArch:      noarch
 BuildRequires:  python-devel, python-setuptools
@@ -24,11 +24,10 @@ markup.
 
 
 %prep
-%setup -q
+%setup -q -n Pygments-%{version}
 
 
 %build
-cp %{SOURCE1001} .
 %{__python} setup.py build
 %{__sed} -i 's/\r//' LICENSE
 
@@ -43,10 +42,8 @@ cp %{SOURCE1001} .
 
 %if 0%{?suse_version}
 %files -f INSTALLED_FILES
-%manifest python-pygments.manifest
 %else
 %files
-%manifest python-pygments.manifest
 %{python_sitelib}/*
 %endif
 # For noarch packages: sitelib
